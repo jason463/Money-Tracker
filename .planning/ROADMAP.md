@@ -11,6 +11,11 @@
 
 **Requirements:** INFR-01, INFR-02, INFR-03
 
+**Plans:** 1 plan
+
+Plans:
+- [ ] 01-01-PLAN.md -- Scaffold Next.js 15, create database layer, verify connectivity
+
 **Delivers:**
 - Next.js 15 App Router project with Tailwind CSS v4
 - Neon Postgres database with expenses and settings tables
@@ -52,7 +57,7 @@
 
 ## Phase 3: Expense Entry & Management
 
-**Goal:** Complete CRUD flow — add expenses, view list, delete entries, edit budget.
+**Goal:** Complete CRUD flow -- add expenses, view list, delete entries, edit budget.
 
 **Requirements:** BUDG-04, EXPR-01, EXPR-02, EXPR-03, EXPR-04, LIST-01, LIST-02, LIST-03, LIST-04
 
@@ -94,7 +99,7 @@
 - [ ] New week starts at Monday 12:00 AM in configured timezone
 - [ ] Main screen shows current week by default
 - [ ] Can navigate to view past 3 weeks
-- [ ] Week header shows date range (e.g., "Mar 3 – Mar 9")
+- [ ] Week header shows date range (e.g., "Mar 3 -- Mar 9")
 - [ ] Data older than 4 weeks is cleaned up automatically
 - [ ] Budget resets to configured amount each new week
 
@@ -132,11 +137,11 @@
 
 | Phase | Goal | Requirements | Est. Plans |
 |-------|------|-------------|------------|
-| 1 | Scaffolding & Database | INFR-01, INFR-02, INFR-03 | 1-2 |
+| 1 | Scaffolding & Database | INFR-01, INFR-02, INFR-03 | 1 |
 | 2 | Core UI & Budget Display | BUDG-01, BUDG-02, BUDG-03, MOBI-01, MOBI-02 | 1-2 |
-| 3 | Expense Entry & Management | BUDG-04, EXPR-01–04, LIST-01–04 | 2-3 |
-| 4 | Week Logic & History | WEEK-01–04 | 1-2 |
-| 5 | PWA & Deployment | INFR-04, MOBI-03–05 | 1-2 |
+| 3 | Expense Entry & Management | BUDG-04, EXPR-01-04, LIST-01-04 | 2-3 |
+| 4 | Week Logic & History | WEEK-01-04 | 1-2 |
+| 5 | PWA & Deployment | INFR-04, MOBI-03-05 | 1-2 |
 
 ## Requirement Coverage
 
@@ -144,4 +149,4 @@ All 25 v1 requirements are mapped. 0 unmapped.
 
 ---
 *Roadmap created: 2026-03-09*
-*Last updated: 2026-03-09 after initial creation*
+*Last updated: 2026-03-09 after phase 1 planning*
